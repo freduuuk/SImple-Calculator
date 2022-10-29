@@ -10,4 +10,4 @@ It is my first GUI Programm made with tkinter
 
 I know it's a .exe but you can see the Code on my GitHub (https://github.com/freduuuk/SImple-Calculator)
 
-If you have questions, DM me!
+If you have questions, DM me on Discord (freduuuk#0418)
