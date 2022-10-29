@@ -1,11 +1,15 @@
 from tkinter import *
 
+# Setting up tkinter
 root = Tk()
 root.title("Simple Calculator - Made by Freduuuk")
+root.iconbitmap("icon.ico")
 
+# Create the Input (Later the Output) Field
 e = Entry(root, width=35, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
+# The "Round About" Functions
 def button_click(number):
     current = e.get()
     e.delete(0, END)
@@ -28,7 +32,7 @@ def button_equal():
         e.insert(0, f_num / int(second_number))
 
     
-
+# The Math Functions
 def button_add():
     first_number = e.get()
     global f_num
@@ -104,5 +108,5 @@ button_subtract.grid(row=6, column=0)
 button_multiply.grid(row=6, column=1)
 button_divide.grid(row=6, column=2)
 
-
+# Loop the Root (Programm)
 root.mainloop()
